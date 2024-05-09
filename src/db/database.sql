@@ -1,0 +1,10 @@
+CREATE DATABASE login_react;
+USE login_react;
+
+DROP TABLE IF EXISTS usuarios;
+
+CREATE TABLE usuarios (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  username VARCHAR(20) NOT NULL,
+  nombre VARCHAR(50) NOT NULL
+);
